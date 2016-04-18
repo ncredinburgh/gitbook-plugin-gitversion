@@ -1,0 +1,21 @@
+{
+    "name": "gitbook-plugin-gitversion",
+    "description": "Plugin to make git version data available for gitbook content",
+    "main": "index.js",
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": "*"
+    },
+    "homepage": "https://github.com/NCR-CoDE/gitbook-plugin-gitversion",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NCR-CoDE/gitbook-plugin-gitversion.git"
+    },
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/NCR-CoDE/gitbook-plugin-gitversion/issues"
+    },
+    "dependencies": {
+        "git-rev-sync": "=1.5.1"
+    }
+}
